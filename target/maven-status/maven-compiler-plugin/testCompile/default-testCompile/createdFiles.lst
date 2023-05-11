@@ -1,0 +1,9 @@
+Test_pkg\Test_BuzzPageHRM.class
+Test_pkg\Test_MembershipsModule.class
+Test_pkg\Test_LoginPageHRM.class
+Test_pkg\Test_DashboardPageHRM.class
+Test_pkg\Test_DirectoryPageHRM.class
+Test_pkg\Test_ADMIN_JobPageHRM.class
+Test_pkg\Test_ADMIN_userManagementPageHRM.class
+Test_pkg\Test_PersonalDetailsPageHRM.class
+Test_pkg\Test_ReviewModule_PerformancePageHRM.class

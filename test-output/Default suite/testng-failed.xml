@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Test_pkg.Test_DashboardPageHRM">
+        <methods>
+          <include name="canvasEmpDistByLocation_checkVisiblity"/>
+          <include name="buzzLatestPost_1_checkVisiblity"/>
+          <include name="canvasEmpDistBySubUnit_checkVisiblity"/>
+          <include name="validate_myleaveButton_Functionality"/>
+          <include name="myLeave_checkVisiblity"/>
+          <include name="validate_timeSheetsButton_Functionality"/>
+          <include name="validate_clockButton_Functionality"/>
+          <include name="myTimeSheet_checkVisiblity"/>
+          <include name="dashboardHomePage_checkVisiblity"/>
+          <include name="shut"/>
+          <include name="timeSheets_checkVisiblity"/>
+          <include name="validate_collapseButton_Functionality"/>
+          <include name="validate_AssignLeaveButton_Functionality"/>
+          <include name="navigateDashboard"/>
+          <include name="canvasTimeAtWork_checkVisiblity"/>
+          <include name="leaveList_checkVisiblity"/>
+          <include name="assignLeave_checkVisiblity"/>
+          <include name="clockTimeAtWork_checkVisiblity"/>
+          <include name="x"/>
+          <include name="y"/>
+          <include name="settingsEmpOnLeaveToday_checkVisiblity"/>
+          <include name="validate_leaveListButton_Functionality"/>
+          <include name="validate_myTimeSheet_Functionality"/>
+          <include name="validate_applyleaveButton_Functionality"/>
+          <include name="applyLeave_checkVisiblity"/>
+        </methods>
+      </class> <!-- Test_pkg.Test_DashboardPageHRM -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
