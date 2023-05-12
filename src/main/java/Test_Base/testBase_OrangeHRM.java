@@ -19,7 +19,7 @@ public class testBase_OrangeHRM {
 		
 		FileInputStream f;
 		try {
-			f = new FileInputStream("D:\\workspace\\orange\\config.properties");
+			f = new FileInputStream("./config.properties");
 			
 			prop=new Properties();
 			prop.load(f);

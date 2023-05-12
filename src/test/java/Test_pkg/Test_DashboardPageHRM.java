@@ -43,7 +43,7 @@ public class Test_DashboardPageHRM extends testBase_OrangeHRM {
 
 	@BeforeTest
 	public void x() {
-		extent=new ExtentReports("D:\\workspace\\orange_git\\extent_report\\DashboardTestreports.html",true);	
+		extent=new ExtentReports("./extent_report\\DashboardTestreports.html",true);	
 	}
 
 	@AfterTest

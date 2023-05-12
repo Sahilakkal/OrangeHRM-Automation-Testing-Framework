@@ -13,7 +13,6 @@ import org.testng.annotations.Test;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
-import com.relevantcodes.extentreports.LogStatus;
 
 import Test_Base.testBase_OrangeHRM;
 import UI_elements.UI_HomePageHRM;
@@ -114,9 +113,7 @@ public class Test_LoginPageHRM extends testBase_OrangeHRM {
 	@Test(priority=7)                                                                  //Validating Login functionality with valid uname and valid pass
 	public void validate_Loginfunctionality_validUname_validPass() throws IOException { 
 		
-//		test=extent.startTest("Verify whether user able to login with valid credentials Successfully");
-//		test.log(LogStatus.INFO, "Loginfunctionality_validUname_validPass Test is intiated");
-//		test.log(LogStatus.INFO,"Verify whether user able to login with valid credentials Successfully");
+
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		loginpage.setUserName().sendKeys(prop.getProperty("VUsername"));                    
 		loginpage.setPassword().sendKeys(prop.getProperty("VPassword"));                    
@@ -125,13 +122,7 @@ public class Test_LoginPageHRM extends testBase_OrangeHRM {
 		String actual=driver.getCurrentUrl();
 		String expected=prop.getProperty("afterloginURL");
 		
-//		if(actual.equals(expected)) {
-//			test.log(LogStatus.PASS, "login successfully");
-//		}
-//		else {
-//			test.log(LogStatus.FAIL, "unable to login");
-//		}
-//		
+	
 		assertEquals(actual,expected);    
 	}
 

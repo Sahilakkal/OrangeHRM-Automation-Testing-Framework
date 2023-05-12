@@ -1,109 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-10T14:21:43 IST" name="Default suite" finished-at="2023-05-10T14:22:39 IST" duration-ms="55623">
+  <suite started-at="2023-05-12T16:14:38 IST" name="Default suite" finished-at="2023-05-12T16:15:19 IST" duration-ms="41103">
     <groups>
     </groups>
-    <test started-at="2023-05-10T14:21:43 IST" name="Default test" finished-at="2023-05-10T14:22:39 IST" duration-ms="55623">
+    <test started-at="2023-05-12T16:14:38 IST" name="Default test" finished-at="2023-05-12T16:15:19 IST" duration-ms="41103">
       <class name="Test_pkg.Test_DashboardPageHRM">
-        <test-method is-config="true" signature="x()[pri:0, instance:Test_pkg.Test_DashboardPageHRM@710636b0]" started-at="2023-05-10T14:21:43 IST" name="x" finished-at="2023-05-10T14:21:43 IST" duration-ms="194" status="PASS">
+        <test-method is-config="true" signature="x()[pri:0, instance:Test_pkg.Test_DashboardPageHRM@79e4c792]" started-at="2023-05-12T16:14:38 IST" name="x" finished-at="2023-05-12T16:14:38 IST" duration-ms="108" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- x -->
-        <test-method is-config="true" signature="navigateDashboard()[pri:0, instance:Test_pkg.Test_DashboardPageHRM@710636b0]" started-at="2023-05-10T14:21:43 IST" name="navigateDashboard" finished-at="2023-05-10T14:22:02 IST" duration-ms="18314" status="PASS">
+        <test-method is-config="true" signature="navigateDashboard()[pri:0, instance:Test_pkg.Test_DashboardPageHRM@79e4c792]" started-at="2023-05-12T16:14:38 IST" name="navigateDashboard" finished-at="2023-05-12T16:14:57 IST" duration-ms="19018" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateDashboard -->
-        <test-method signature="applyLeave_checkVisiblity()[pri:0, instance:Test_pkg.Test_DashboardPageHRM@710636b0]" started-at="2023-05-10T14:22:02 IST" name="applyLeave_checkVisiblity" finished-at="2023-05-10T14:22:02 IST" duration-ms="84" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- applyLeave_checkVisiblity -->
-        <test-method signature="assignLeave_checkVisiblity()[pri:0, instance:Test_pkg.Test_DashboardPageHRM@710636b0]" started-at="2023-05-10T14:22:02 IST" name="assignLeave_checkVisiblity" finished-at="2023-05-10T14:22:02 IST" duration-ms="67" status="PASS">
+        <test-method signature="assignLeave_checkVisiblity()[pri:0, instance:Test_pkg.Test_DashboardPageHRM@79e4c792]" started-at="2023-05-12T16:14:57 IST" name="assignLeave_checkVisiblity" finished-at="2023-05-12T16:14:57 IST" duration-ms="36" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assignLeave_checkVisiblity -->
-        <test-method signature="buzzLatestPost_1_checkVisiblity()[pri:0, instance:Test_pkg.Test_DashboardPageHRM@710636b0]" started-at="2023-05-10T14:22:02 IST" name="buzzLatestPost_1_checkVisiblity" finished-at="2023-05-10T14:22:02 IST" duration-ms="72" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- buzzLatestPost_1_checkVisiblity -->
-        <test-method signature="canvasEmpDistByLocation_checkVisiblity()[pri:0, instance:Test_pkg.Test_DashboardPageHRM@710636b0]" started-at="2023-05-10T14:22:02 IST" name="canvasEmpDistByLocation_checkVisiblity" finished-at="2023-05-10T14:22:02 IST" duration-ms="53" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- canvasEmpDistByLocation_checkVisiblity -->
-        <test-method signature="canvasEmpDistBySubUnit_checkVisiblity()[pri:0, instance:Test_pkg.Test_DashboardPageHRM@710636b0]" started-at="2023-05-10T14:22:02 IST" name="canvasEmpDistBySubUnit_checkVisiblity" finished-at="2023-05-10T14:22:02 IST" duration-ms="53" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- canvasEmpDistBySubUnit_checkVisiblity -->
-        <test-method signature="canvasTimeAtWork_checkVisiblity()[pri:0, instance:Test_pkg.Test_DashboardPageHRM@710636b0]" started-at="2023-05-10T14:22:02 IST" name="canvasTimeAtWork_checkVisiblity" finished-at="2023-05-10T14:22:02 IST" duration-ms="48" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- canvasTimeAtWork_checkVisiblity -->
-        <test-method signature="clockTimeAtWork_checkVisiblity()[pri:0, instance:Test_pkg.Test_DashboardPageHRM@710636b0]" started-at="2023-05-10T14:22:02 IST" name="clockTimeAtWork_checkVisiblity" finished-at="2023-05-10T14:22:02 IST" duration-ms="52" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clockTimeAtWork_checkVisiblity -->
-        <test-method signature="dashboardHomePage_checkVisiblity()[pri:0, instance:Test_pkg.Test_DashboardPageHRM@710636b0]" started-at="2023-05-10T14:22:02 IST" name="dashboardHomePage_checkVisiblity" finished-at="2023-05-10T14:22:02 IST" duration-ms="45" status="PASS">
+        <test-method signature="dashboardHomePage_checkVisiblity()[pri:0, instance:Test_pkg.Test_DashboardPageHRM@79e4c792]" started-at="2023-05-12T16:14:57 IST" name="dashboardHomePage_checkVisiblity" finished-at="2023-05-12T16:14:57 IST" duration-ms="22" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dashboardHomePage_checkVisiblity -->
-        <test-method signature="leaveList_checkVisiblity()[pri:0, instance:Test_pkg.Test_DashboardPageHRM@710636b0]" started-at="2023-05-10T14:22:02 IST" name="leaveList_checkVisiblity" finished-at="2023-05-10T14:22:02 IST" duration-ms="48" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- leaveList_checkVisiblity -->
-        <test-method signature="myLeave_checkVisiblity()[pri:0, instance:Test_pkg.Test_DashboardPageHRM@710636b0]" started-at="2023-05-10T14:22:02 IST" name="myLeave_checkVisiblity" finished-at="2023-05-10T14:22:02 IST" duration-ms="55" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- myLeave_checkVisiblity -->
-        <test-method signature="myTimeSheet_checkVisiblity()[pri:0, instance:Test_pkg.Test_DashboardPageHRM@710636b0]" started-at="2023-05-10T14:22:02 IST" name="myTimeSheet_checkVisiblity" finished-at="2023-05-10T14:22:02 IST" duration-ms="57" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- myTimeSheet_checkVisiblity -->
-        <test-method signature="settingsEmpOnLeaveToday_checkVisiblity()[pri:0, instance:Test_pkg.Test_DashboardPageHRM@710636b0]" started-at="2023-05-10T14:22:02 IST" name="settingsEmpOnLeaveToday_checkVisiblity" finished-at="2023-05-10T14:22:02 IST" duration-ms="53" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- settingsEmpOnLeaveToday_checkVisiblity -->
-        <test-method signature="timeSheets_checkVisiblity()[pri:0, instance:Test_pkg.Test_DashboardPageHRM@710636b0]" started-at="2023-05-10T14:22:02 IST" name="timeSheets_checkVisiblity" finished-at="2023-05-10T14:22:02 IST" duration-ms="53" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- timeSheets_checkVisiblity -->
-        <test-method signature="validate_AssignLeaveButton_Functionality()[pri:1, instance:Test_pkg.Test_DashboardPageHRM@710636b0]" started-at="2023-05-10T14:22:02 IST" name="validate_AssignLeaveButton_Functionality" finished-at="2023-05-10T14:22:03 IST" duration-ms="682" status="PASS">
+        <test-method signature="validate_AssignLeaveButton_Functionality()[pri:1, instance:Test_pkg.Test_DashboardPageHRM@79e4c792]" started-at="2023-05-12T16:14:57 IST" name="validate_AssignLeaveButton_Functionality" finished-at="2023-05-12T16:14:58 IST" duration-ms="485" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validate_AssignLeaveButton_Functionality -->
-        <test-method signature="validate_leaveListButton_Functionality()[pri:2, instance:Test_pkg.Test_DashboardPageHRM@710636b0]" started-at="2023-05-10T14:22:03 IST" name="validate_leaveListButton_Functionality" finished-at="2023-05-10T14:22:07 IST" duration-ms="3957" status="PASS">
+        <test-method signature="validate_leaveListButton_Functionality()[pri:2, instance:Test_pkg.Test_DashboardPageHRM@79e4c792]" started-at="2023-05-12T16:14:58 IST" name="validate_leaveListButton_Functionality" finished-at="2023-05-12T16:15:00 IST" duration-ms="2275" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validate_leaveListButton_Functionality -->
-        <test-method signature="validate_timeSheetsButton_Functionality()[pri:3, instance:Test_pkg.Test_DashboardPageHRM@710636b0]" started-at="2023-05-10T14:22:07 IST" name="validate_timeSheetsButton_Functionality" finished-at="2023-05-10T14:22:11 IST" duration-ms="3614" status="PASS">
+        <test-method signature="validate_timeSheetsButton_Functionality()[pri:3, instance:Test_pkg.Test_DashboardPageHRM@79e4c792]" started-at="2023-05-12T16:15:00 IST" name="validate_timeSheetsButton_Functionality" finished-at="2023-05-12T16:15:02 IST" duration-ms="2367" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validate_timeSheetsButton_Functionality -->
-        <test-method signature="validate_applyleaveButton_Functionality()[pri:4, instance:Test_pkg.Test_DashboardPageHRM@710636b0]" started-at="2023-05-10T14:22:11 IST" name="validate_applyleaveButton_Functionality" finished-at="2023-05-10T14:22:13 IST" duration-ms="2518" status="PASS">
+        <test-method signature="validate_applyleaveButton_Functionality()[pri:4, instance:Test_pkg.Test_DashboardPageHRM@79e4c792]" started-at="2023-05-12T16:15:02 IST" name="validate_applyleaveButton_Functionality" finished-at="2023-05-12T16:15:05 IST" duration-ms="2071" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validate_applyleaveButton_Functionality -->
-        <test-method signature="validate_myleaveButton_Functionality()[pri:5, instance:Test_pkg.Test_DashboardPageHRM@710636b0]" started-at="2023-05-10T14:22:13 IST" name="validate_myleaveButton_Functionality" finished-at="2023-05-10T14:22:19 IST" duration-ms="5803" status="PASS">
+        <test-method signature="validate_myleaveButton_Functionality()[pri:5, instance:Test_pkg.Test_DashboardPageHRM@79e4c792]" started-at="2023-05-12T16:15:05 IST" name="validate_myleaveButton_Functionality" finished-at="2023-05-12T16:15:07 IST" duration-ms="2593" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validate_myleaveButton_Functionality -->
-        <test-method signature="validate_myTimeSheet_Functionality()[pri:6, instance:Test_pkg.Test_DashboardPageHRM@710636b0]" started-at="2023-05-10T14:22:19 IST" name="validate_myTimeSheet_Functionality" finished-at="2023-05-10T14:22:30 IST" duration-ms="10532" status="PASS">
+        <test-method signature="validate_myTimeSheet_Functionality()[pri:6, instance:Test_pkg.Test_DashboardPageHRM@79e4c792]" started-at="2023-05-12T16:15:07 IST" name="validate_myTimeSheet_Functionality" finished-at="2023-05-12T16:15:11 IST" duration-ms="4001" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validate_myTimeSheet_Functionality -->
-        <test-method signature="validate_collapseButton_Functionality()[pri:7, instance:Test_pkg.Test_DashboardPageHRM@710636b0]" started-at="2023-05-10T14:22:30 IST" name="validate_collapseButton_Functionality" finished-at="2023-05-10T14:22:34 IST" duration-ms="4827" status="PASS">
+        <test-method signature="validate_collapseButton_Functionality()[pri:7, instance:Test_pkg.Test_DashboardPageHRM@79e4c792]" started-at="2023-05-12T16:15:11 IST" name="validate_collapseButton_Functionality" finished-at="2023-05-12T16:15:15 IST" duration-ms="4328" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validate_collapseButton_Functionality -->
-        <test-method signature="validate_clockButton_Functionality()[pri:8, instance:Test_pkg.Test_DashboardPageHRM@710636b0]" started-at="2023-05-10T14:22:34 IST" name="validate_clockButton_Functionality" finished-at="2023-05-10T14:22:36 IST" duration-ms="1858" status="PASS">
+        <test-method signature="validate_clockButton_Functionality()[pri:8, instance:Test_pkg.Test_DashboardPageHRM@79e4c792]" started-at="2023-05-12T16:15:15 IST" name="validate_clockButton_Functionality" finished-at="2023-05-12T16:15:17 IST" duration-ms="1501" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validate_clockButton_Functionality -->
-        <test-method is-config="true" signature="shut()[pri:0, instance:Test_pkg.Test_DashboardPageHRM@710636b0]" started-at="2023-05-10T14:22:36 IST" name="shut" finished-at="2023-05-10T14:22:38 IST" duration-ms="2235" status="PASS">
+        <test-method is-config="true" signature="shut()[pri:0, instance:Test_pkg.Test_DashboardPageHRM@79e4c792]" started-at="2023-05-12T16:15:17 IST" name="shut" finished-at="2023-05-12T16:15:19 IST" duration-ms="2132" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shut -->
-        <test-method is-config="true" signature="y()[pri:0, instance:Test_pkg.Test_DashboardPageHRM@710636b0]" started-at="2023-05-10T14:22:38 IST" name="y" finished-at="2023-05-10T14:22:39 IST" duration-ms="234" status="PASS">
+        <test-method is-config="true" signature="y()[pri:0, instance:Test_pkg.Test_DashboardPageHRM@79e4c792]" started-at="2023-05-12T16:15:19 IST" name="y" finished-at="2023-05-12T16:15:19 IST" duration-ms="138" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- y -->
