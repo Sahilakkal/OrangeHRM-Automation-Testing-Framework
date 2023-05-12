@@ -56,7 +56,7 @@ public class Test_DashboardPageHRM extends testBase_OrangeHRM {
 	public void dashboardHomePage_checkVisiblity() {
 		test=extent.startTest("Verify Dashboard Home Page Visiblity");
 		test.log(LogStatus.INFO, "DashboardHomePage Test is intiated");
-		test.log(LogStatus.INFO,"Verify Dashboard Home Page Visiblity");
+		test.log(LogStatus.INFO,"Verify Dashboard Home Page Visiblity******");
 
 		boolean actual=ui_DashBoard.dashboard_indexPage().isDisplayed();
 
