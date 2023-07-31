@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+
+  <test thread-count="5" name="Test">
+    <classes>
+		<class name="Test_pkg.Test_DashboardPageHRM"/> 
+  
+     <!--     <class name="Test_pkg.Test_PersonalDetailsPageHRM"/> 
+                 <class name="Test_pkg.Test_LoginPageHRM"/>
+                 <class name="Test_pkg.Test_DirectoryPageHRM"/>
+                      <class name="Test_pkg.Test_BuzzPageHRM"/>
+                          <class name="Test_pkg.Test_ReviewModule_PerformancePageHRM"/>
+                              <class name="Test_pkg.Test_ADMIN_userManagementPageHRM"/>
+                                  <class name="Test_pkg.Test_ADMIN_JobPageHRM"/>
+                                      <class name="Test_pkg.Test_MembershipsModule"/>
+                                          <class name="Test_pkg.Test_ADMIN_userManagementPageHRM"/>
+   --> </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

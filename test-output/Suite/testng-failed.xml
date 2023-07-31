@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Test_pkg.Test_BuzzPageHRM">
+        <methods>
+          <include name="validate_unlikeAComment_functionality"/>
+          <include name="navigateToBuzzPage"/>
+          <include name="validate_likeAcomment_Functionality"/>
+          <include name="shutbuzz"/>
+          <include name="validate_postWithPhoto_Functionality"/>
+          <include name="validate_LikePost_Functionality"/>
+          <include name="validate_postfunctionality"/>
+          <include name="validate_UnLikePost_Functionality"/>
+          <include name="validate_postWithVideo_Functionality"/>
+          <include name="x"/>
+          <include name="validate_commentPost_functionality"/>
+          <include name="y"/>
+        </methods>
+      </class> <!-- Test_pkg.Test_BuzzPageHRM -->
+      <class name="Test_pkg.Test_ReviewModule_PerformancePageHRM">
+        <methods>
+          <include name="Validate_ActionsButton_Functionality"/>
+          <include name="Validate_employeeReviewsButton_Functionality"/>
+          <include name="Validate_employeeSort"/>
+          <include name="navigateToReviewModule"/>
+          <include name="Validate_MyReviewsButton_Functionality"/>
+          <include name="Validate_SelfEvaulation_Functionality"/>
+        </methods>
+      </class> <!-- Test_pkg.Test_ReviewModule_PerformancePageHRM -->
+      <class name="Test_pkg.Test_DashboardPageHRM">
+        <methods>
+          <include name="navigateDashboard"/>
+          <include name="leaveList_checkVisiblity"/>
+          <include name="assignLeave_checkVisiblity"/>
+          <include name="x"/>
+          <include name="y"/>
+          <include name="settingsEmpOnLeaveToday_checkVisiblity"/>
+          <include name="validate_myleaveButton_Functionality"/>
+          <include name="myLeave_checkVisiblity"/>
+          <include name="validate_leaveListButton_Functionality"/>
+          <include name="shut"/>
+          <include name="validate_applyleaveButton_Functionality"/>
+          <include name="applyLeave_checkVisiblity"/>
+          <include name="validate_AssignLeaveButton_Functionality"/>
+        </methods>
+      </class> <!-- Test_pkg.Test_DashboardPageHRM -->
+      <class name="Test_pkg.Test_ADMIN_userManagementPageHRM">
+        <methods>
+          <include name="Validate_DeleteRecordFunctionality"/>
+          <include name="shut"/>
+          <include name="Validate_UserEdit_Functionality"/>
+          <include name="Validate_SaveButtonFunctionality"/>
+          <include name="navigateToAdminModule"/>
+        </methods>
+      </class> <!-- Test_pkg.Test_ADMIN_userManagementPageHRM -->
+      <class name="Test_pkg.Test_MembershipsModule">
+        <methods>
+          <include name="a_Editmembership_Functionality"/>
+          <include name="Validate_addMembershipsButton_Functionality"/>
+          <include name="cancelButton_Function"/>
+          <include name="navigateToReviewModule"/>
+          <include name="Validate_enterDetailsAddMemberships"/>
+          <include name="Validate_errorMessage_commencedateequalsToRenewalDate"/>
+        </methods>
+      </class> <!-- Test_pkg.Test_MembershipsModule -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
